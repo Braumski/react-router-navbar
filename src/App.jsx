@@ -5,8 +5,9 @@ import {Routes, Route, Link} from 'react-router-dom'
 
 export default function App() {
 
+
   return (
-    <div className="App">
+    <>
       <nav className="nav">
         <Link to="/" className="nav-item">Homepage</Link> 
         {/* Link Tags replace Anchor or <a href> tags in React */}
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/about-me" element={<AboutMe />}/>
         <Route path="/conditional-render" element={<ConditionalRender/>} />
       </Routes>
-    </div>
+    </>
+    
   )
 }
