@@ -14,7 +14,7 @@ export default function App() {
         <Link to="/about-me" className="nav-item">About me</Link>
         <Link to="/conditional-render" className="nav-item">Conditional Render</Link>
       </nav>
-      {/* To use routes, type "npm i react-router-dom@6" in the console */}
+      {/* To use routes, type "npm install react-router-dom@6" in the console */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about-me" element={<AboutMe />}/>
